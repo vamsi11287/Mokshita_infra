@@ -1,0 +1,8 @@
+.Logoitem{
+    padding:20px 5%;
+    position: fixed;
+    z-index: 1;
+}
+.Logoitem img{
+    width: 200px;
+}

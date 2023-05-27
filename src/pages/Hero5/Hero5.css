@@ -1,0 +1,46 @@
+.sec5{
+    display: flex;
+    padding:2% 18%; 
+    align-items: flex-end;
+}
+.sec5_part1{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.sec5_text{
+    color: rgb(33, 33, 69);
+    font-size: 35px;
+    text-shadow: 5px 3px 4px gray;
+}
+.sec5_img{
+    width: 100%;
+}
+.sec5_img img{
+    width: 100%;
+}
+.sec5_gap{
+    display :flex;
+    flex-direction: column;
+    gap:10%;
+}
+.sec5_part2{
+    display: flex;
+}
+/* .sec4_button_hover{
+    position: relative;
+    left:-32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.se{
+    display: none;
+}
+.sec4_button_hover:hover .sec4_button{
+    display: none;
+}
+.sec4_button_hover:hover .se{
+    transition:all 2s ease;
+    display: block;
+} */

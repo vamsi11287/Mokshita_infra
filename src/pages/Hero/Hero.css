@@ -1,0 +1,18 @@
+.video{
+    width:100%;
+}
+.video video{
+    width:100%;
+    object-fit:cover;
+}
+.compass{
+    position: absolute;    
+    top:25%;
+    left:40%;
+    z-index:1;
+    width: 20%;
+}
+.compass:hover{
+    transform:rotate(5deg);
+    transition:all ease 1s;
+}

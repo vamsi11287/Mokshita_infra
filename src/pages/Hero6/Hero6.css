@@ -1,0 +1,6 @@
+.sec6{
+    display: flex;
+    padding:2% 15%; 
+    align-items: flex-end;
+    gap:50px;
+}

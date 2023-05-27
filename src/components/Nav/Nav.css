@@ -1,0 +1,33 @@
+.nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    width:4vw;
+    position: fixed;
+    left: 0;
+    background-color: rgb(7, 7, 92);
+    padding:2%;
+}
+.nav h3{
+    color:white;
+}
+
+.home{
+    width:30px;
+    height:30px;
+    color:white;
+}
+.lines{
+    background-color: white;
+    width:45px;
+    height:1px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+

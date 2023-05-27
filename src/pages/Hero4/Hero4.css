@@ -1,0 +1,71 @@
+.sec4{
+    padding:2% 18%; 
+    background-attachment: fixed;
+}
+.sec4_part1{
+    display: flex;gap:20px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.feature{
+    font-size: 20px;
+}
+.boldline{
+    width:60px;
+    height:5px;
+    background-color: black;
+}
+.sec4_part2{
+    display :flex;
+    justify-content: flex-start;
+    gap:20px;padding:30px 0;
+}
+.haldiline ,.haldiline1{
+    width:30px;
+    height:1px;
+    background-color: black;
+}
+
+.sec4_part21,.sec4_part22{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.sec4_part3{
+    display:flex;
+    gap:2%;align-items: center;
+}
+.sec4_part31{
+    width:100%;
+}
+.sec4_part31 img{
+    width:30vw;
+    height:40vh;
+}
+.sec4_part32{
+    display: flex;
+    flex-direction: column;
+    color: rgb(19, 19, 80);
+    gap:30px;
+}
+.shadowtitle{
+    font-size: 30px;
+    text-shadow: 5px 3px 4px gray;
+}
+.sec4_button{
+    background-color: black;
+    font-size:x-small;
+    padding: 15px 25px;
+    color: white;
+    /* font-weight: 550; */
+    width: 120px;
+    cursor: pointer;
+}
+.sec4_part21:hover .haldiline{
+    transition: all ease 0.3s;
+    transform: rotate(30deg);
+}
+.sec4_part22:hover .haldiline1{
+    transition: all ease 0.3s;
+    transform: rotate(30deg);
+}
